@@ -1,27 +1,130 @@
-.nav {
+header {
 	width: 100%;
-	height: 90px;
-	background-color: orange;
-	border: solid black 3px;
+	height: 375px;
+	background-color: white;
 }
 
-.nav ul li {
-	display: inline-block;
-	float: right;
-	padding: 0px 30px 0px 30px;
-	margin-top: 20px;
+#address {
+	font-family: "Roboto";
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 17px;
+	letter-spacing: 3px;
+	padding-top: 20px;
+	padding-left: 80px;
 }
 
-.section1 {
+
+
+#toplogo {
+	text-align: center;
+	margin-top: -20px;
+	
+}
+
+.address p {
+	margin-right: 20px;
+}
+
+.navigation-bar {
+	height: 35px;
 	width: 100%;
-	height: 600px;
-	border: solid black 3px;
+	margin-top: -110px;
 }
 
+.navigation-bar ul {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.navigation-bar li {
+	list-style-type: none;
+	padding: 0px;
+	height: 24px;
+	display: inline;
+}
+
+.navigation-bar li a {
+	text-decoration: none;
+	padding: 14px 16px;
+	color: #3b3b3b;
+	font-family: 'Roboto';
+	font-weight: 400;
+	letter-spacing: 1.25px;
+}
+
+
+li a:hover {
+	color: #da8f7c;
+}
+
+#section1 {
+	width: 100%;
+	height: 500px;
+	background: #f6f6f6;
+	font-family: "Roboto";
+}
+
+#section1 h1 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 35px;
+	padding-top: 50px;
+	color: #3b3b3b;
+}
+
+#section1 p {
+	text-align: center;
+	color: #787878;
+}
+
+form {
+	padding-top: 40px;
+	text-align: center;
+	color: #787878;
+}
+input[type=text], select {
+	width: 400px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display:inline;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	color: #787878;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	background-color: #e89c88;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+
+}
 
 footer {
 	width: 100%;
-	height: 90px;
-	background-color: green;
-	border: solid black 3px;
+	height: 150px;
+	background-color: #b7ddd2;
+}
+
+footer #icons {
+	text-align: center;
+	padding-top: 40px;
+
+}
+
+footer img {
+	padding-left: 20px;
+}
+
+footer p {
+	font-family: "Roboto";
+	font-weight: 300;
+	text-align: center;
+	padding-top: 20px;
+	color: white;
 }
